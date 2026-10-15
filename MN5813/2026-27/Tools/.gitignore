@@ -1,0 +1,4 @@
+# An older version of the fetch scripts wrote their data into data/ here. The
+# next run of a script moves that copy into work/data/. Until then, this rule
+# keeps git from committing it.
+/data/
